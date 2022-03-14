@@ -1,0 +1,22 @@
+.h-48 {
+    font-size: 48px;
+    line-height: 56px;
+}
+
+.text-bold {
+    font-weight: 700;
+}
+
+.font-21{
+    font-size: 21px;
+    line-height: 32px;
+}
+
+.color-gray{
+    color: #7D7987;
+}
+
+.mainButton{
+    background: #458FF6;
+    border-radius: 55px;
+}
