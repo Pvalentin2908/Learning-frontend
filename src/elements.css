@@ -19,4 +19,9 @@
 .mainButton{
     background: #458FF6;
     border-radius: 55px;
+    color: white;
+    border: 0;
+    padding: 12px 24px 16px 24px;
+    text-align: center;
+    line-height: 24px;
 }
