@@ -11,8 +11,8 @@ import Emergency from "./assets/emergency.png";
 
 export default function Services() { 
     return( 
-        <div className="d-flex flex-column justify-content-between">
-            <div className="d-flex flex-column justify-content-between align-items-center">
+        <div className="d-flex flex-column justify-content-between my-5">
+            <div className="d-flex flex-column justify-content-between align-items-center mb-5">
                 <h2 className="font-36 mb-3">Our services</h2>
                 <div className={cs(s.lineBlack, 'mb-3')}/>
                 <div className="font-18 color-gray text-center">
@@ -33,49 +33,46 @@ export default function Services() {
                     </div>
                 </div>
                 <div className={cs(s.cardServices, ' p-4')}>
-                    <img src={Search}/>
-                    <div className="font-24 my-3"> <h3>Search doctor</h3> </div>
-                    <div className="font-16 color-gray text-left">Choose your doctor from
-                        thousands of specialist,
-                        general, and trusted hospitals
+                    <img src={Pharmacy}/>
+                    <div className="font-24 my-3"> <h3>Online pharmacy</h3> </div>
+                    <div className="font-16 color-gray text-left">Buy  your medicines with our mobile
+                    application with a simple delivery system
                     </div>
                 </div>
                 <div className={cs(s.cardServices, ' p-4')}>
-                    <img src={Search}/>
-                    <div className="font-24 my-3"> <h3>Search doctor</h3> </div>
-                    <div className="font-16 color-gray text-left">Choose your doctor from
-                        thousands of specialist,
-                        general, and trusted hospitals
+                    <img src={Consultation}/>
+                    <div className="font-24 my-3"> <h3>Consultation</h3> </div>
+                    <div className="font-16 color-gray text-left">Free consultation with our trusted
+                    doctors and get the best recomendations
                     </div>
                 </div>
             </div>
             <div className="d-flex flex-row justify-content-between mt-5">
                 <div className={cs(s.cardServices, ' p-4')}>
-                    <img src={Search}/>
-                    <div className="font-24 my-3"> <h3>Search doctor</h3> </div>
-                    <div className="font-16 color-gray text-left">Choose your doctor from
-                        thousands of specialist,
-                        general, and trusted hospitals
+                    <img src={Details}/>
+                    <div className="font-24 my-3"> <h3>Details info</h3> </div>
+                    <div className="font-16 color-gray text-left">Free consultation with our trusted
+                    doctors and get the best recomendations
                     </div>
                 </div>
                 <div className={cs(s.cardServices, ' p-4')}>
-                    <img src={Search}/>
-                    <div className="font-24 my-3"> <h3>Search doctor</h3> </div>
-                    <div className="font-16 color-gray text-left">Choose your doctor from
-                        thousands of specialist,
-                        general, and trusted hospitals
+                    <img src={Emergency}/>
+                    <div className="font-24 my-3"> <h3>Emergency care</h3> </div>
+                    <div className="font-16 color-gray text-left">You can get 24/7 urgent
+                    care for yourself or your children and your lovely family
                     </div>
                 </div>
                 <div className={cs(s.cardServices, ' p-4')}>
-                    <img src={Search}/>
-                    <div className="font-24 my-3"> <h3>Search doctor</h3> </div>
-                    <div className="font-16 color-gray text-left">Choose your doctor from
-                        thousands of specialist,
-                        general, and trusted hospitals
+                    <img src={Tracking}/>
+                    <div className="font-24 my-3"> <h3>Tracking</h3> </div>
+                    <div className="font-16 color-gray text-left">Track and save your medical
+                    history and health data 
                     </div>
                 </div>
 
             </div>
+            <div className="text-center p-5"><button className="mainButton2 ">Learn more</button></div>
         </div>
+        
     );
 }

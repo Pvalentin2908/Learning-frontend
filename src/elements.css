@@ -36,6 +36,10 @@
     color: #7D7987;
 }
 
+body .text-white {
+    color: white;
+}
+
 .mainButton{
     background: #458FF6;
     border-radius: 55px;
@@ -44,4 +48,16 @@
     padding: 12px 24px 16px 24px;
     text-align: center;
     line-height: 24px;
+}
+
+.mainButton2{
+    background: #ffffff;
+    border-radius: 55px;
+    color: #458FF6;
+    border: 0;
+    padding: 10px 36px 14px 36px;
+    text-align: center;
+    line-height: 24px;
+    border: 1.4px solid #458FF6;
+    box-sizing: border-box;
 }

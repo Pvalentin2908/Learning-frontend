@@ -3,6 +3,12 @@ import cs from "classname";
 import s from "./style.module.css";
 import HeroImg from "./assets/trafalgar-header illustration 1.png";
 import Services from "./Services";
+import HeroImg2 from "./assets/trafalgar-illustration 2.png"
+import Vector from "./assets/Vector.png"
+import HeroImg3 from "./assets/trafalgar-illustration 3.png"
+import Healthcare from "./Healthcare";
+import MobileApp from "./MobileApp";
+import Testimonials from "./Testimonials";
  
 export default function LandingPage() { 
     return(
@@ -20,6 +26,9 @@ export default function LandingPage() {
                 </div>
             </div>
             <Services/>
+            <Healthcare/>
+            <MobileApp/>
+            <Testimonials/>
        </>
     );
 
