@@ -61,3 +61,10 @@ body .text-white {
     border: 1.4px solid #458FF6;
     box-sizing: border-box;
 }
+
+.textButton{
+    background: #ffffff;
+    color: #458FF6;
+    border: 0;
+    box-sizing: border-box;
+}

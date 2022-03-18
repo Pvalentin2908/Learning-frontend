@@ -9,6 +9,7 @@ import HeroImg3 from "./assets/trafalgar-illustration 3.png"
 import Healthcare from "./Healthcare";
 import MobileApp from "./MobileApp";
 import Testimonials from "./Testimonials";
+import Articles from "./Articles";
  
 export default function LandingPage() { 
     return(
@@ -29,6 +30,7 @@ export default function LandingPage() {
             <Healthcare/>
             <MobileApp/>
             <Testimonials/>
+            <Articles/>
        </>
     );
 
