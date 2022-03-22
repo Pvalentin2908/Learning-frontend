@@ -10,10 +10,13 @@ import Healthcare from "./Healthcare";
 import MobileApp from "./MobileApp";
 import Testimonials from "./Testimonials";
 import Articles from "./Articles";
+import Header from "../../components/Page/header";
+import Footer from "../../components/Page/footer";
  
 export default function LandingPage() { 
     return(
-        <>
+        <div className="">
+            <Header/>
             <div className="d-flex flex-row justify-content-between align-items-center w-100">
                 <div className="d-flex flex-column justify-content-between">
                         <div className="mb-3"><h1 className="h-48 text-bold">Virtual healthcare for you</h1></div>
@@ -31,7 +34,8 @@ export default function LandingPage() {
             <MobileApp/>
             <Testimonials/>
             <Articles/>
-       </>
+            <Footer/>
+       </div>
     );
 
 }
