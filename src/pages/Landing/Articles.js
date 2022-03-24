@@ -7,15 +7,18 @@ import Img1 from "./assets/image 4.png";
 import Img2 from "./assets/image 2.png";
 import Img3 from "./assets/image 3.png";
 import Vector2 from "./assets/Vector 2.png";
+import Element2 from "./assets/element2.png";
 
 export default function Articles() {
     const [open, setOpen] = useState(false);
     console.log(open);
     return(
-            <div className="d-flex flex-column justify-content-between p-5 m-5">
+            <div className={cs(s.relativeContainer, "d-flex flex-column justify-content-between p-5 m-5")}>
                 <div className="d-flex flex-column justify-content-between align-items-center text-center mb-3">
                     <div className="text-black mb-3"><h3 className="text-black">Check out our latest article</h3></div>
                     <div className={cs(s.lineBlack, 'mb-3')}/>
+                </div>
+                <div className={s.absoluteContainer}>
                 </div>
                 <div className="d-flex flex-row justify-content-around align-items-center mb-5">
                     <div className={cs(s.articleCard, "me-4")}>

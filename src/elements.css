@@ -68,3 +68,11 @@ body .text-white {
     border: 0;
     box-sizing: border-box;
 }
+
+.px-70 {
+    padding: 0 70px;
+}
+
+.px-90 {
+    padding: 0 90px;
+}

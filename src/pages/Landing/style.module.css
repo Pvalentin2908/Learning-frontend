@@ -50,6 +50,15 @@
     max-width: 350px;
 }
 
-.cardFooter {
-    background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+.relativeContainer {
+    position: relative;
+    z-index: 5;
+}
+
+.absoluteContainer {
+    position: absolute;
+    z-index: 2;
+    background-image: url("./assets/element2.png");
+    background: linear-gradient(175.68deg, #F3F7FF -10.48%, #DEEEFE 92.66%);
+    transform: rotate(-159.84deg);
 }

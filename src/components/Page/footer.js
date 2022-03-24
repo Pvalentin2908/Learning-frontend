@@ -5,7 +5,7 @@ import Logo from "./assets/logo.png";
 
 export default function Footer() {
     return(
-        <div className={cs(s.cardFooter, "d-flex flex-row justify-content-between align-items text-white p-5 m-5 ")}>
+        <div className={cs(s.cardFooter, "d-flex flex-row justify-content-between align-items text-white p-5")}>
             <div className="align-items-center p-5">
                 <div className="mb-3"><img src={Logo}/></div>
                 <div className="mb-3">Trafalgar provides progressive,

@@ -15,7 +15,8 @@ import Footer from "../../components/Page/footer";
  
 export default function LandingPage() { 
     return(
-        <div className="">
+    <>
+        <div className="px-90">
             <Header/>
             <div className="d-flex flex-row justify-content-between align-items-center w-100">
                 <div className="d-flex flex-column justify-content-between">
@@ -34,8 +35,9 @@ export default function LandingPage() {
             <MobileApp/>
             <Testimonials/>
             <Articles/>
-            <Footer/>
        </div>
+    <Footer/>
+    </>
     );
 
 }
