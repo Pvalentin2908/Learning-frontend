@@ -16,18 +16,17 @@ import Footer from "../../components/Page/footer";
 export default function LandingPage() { 
     return(
     <>
-        <div className="px-90">
+        <div className="px-90 container-floid w-100 h-100">
             <Header/>
-            <div className="d-flex flex-row justify-content-between align-items-center w-100">
-                <div className="d-flex flex-column justify-content-between">
+            <div className="d-flex flex-column flex-lg-row justify-content-between align-items-center w-100  h-100">
+                <div className="d-flex order-1 order-lg-0 flex-column justify-content-between col-12 col-lg-6">
                         <div className="mb-3"><h1 className="h-48 text-bold">Virtual healthcare for you</h1></div>
                         <div className="mb-4">Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online for everyone</div>
                         <div><button className="mainButton">Consult today</button></div>
                 </div>
-                <div className="">
-                        <div className={s.imgBg}>
-                            <img src={HeroImg}></img>
-                        </div>
+                <div className="col-12 col-lg-6 order-0 order-lg-1 h-100">
+                    <div className={cs(s.imgBg)} style={{backgroundImage:{HeroImg}}} >
+                    </div>
                 </div>
             </div>
             <Services/>

@@ -1,6 +1,10 @@
 .imgBg {
     overflow: visible;
-}
+    background-image: url("./assets/trafalgar-header illustration 1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 600px;}
 
 .lineBlack {
     background: #000000;
@@ -59,6 +63,17 @@
     position: absolute;
     z-index: 2;
     background-image: url("./assets/element2.png");
-    background: linear-gradient(175.68deg, #F3F7FF -10.48%, #DEEEFE 92.66%);
-    transform: rotate(-159.84deg);
+}
+
+@media screen and (max-width: 550px) {
+    .cardServices {
+        width: 100%;
+    }
+    .imgBg {
+        overflow: visible;
+        width: 600px;
+        height: 300px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
 }
