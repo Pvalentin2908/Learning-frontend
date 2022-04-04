@@ -23,7 +23,7 @@ export default function Services() {
                     is suitable for your health
                 </div>
             </div>
-            <div className="d-flex flex-row justify-content-between">
+            <div className="d-flex flex-row justify-content-between flex-wrap">
                 <div className={cs(s.cardServices, ' p-4')}>
                     <img src={Search}/>
                     <div className="font-24 my-3"> <h3>Search doctor</h3> </div>
@@ -47,7 +47,7 @@ export default function Services() {
                     </div>
                 </div>
             </div>
-            <div className="d-flex flex-row justify-content-between mt-5">
+            <div className="d-flex flex-row justify-content-between mt-5 flex-wrap">
                 <div className={cs(s.cardServices, ' p-4')}>
                     <img src={Details}/>
                     <div className="font-24 my-3"> <h3>Details info</h3> </div>

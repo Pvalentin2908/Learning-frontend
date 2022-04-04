@@ -1,78 +1,84 @@
 .h-48 {
-    font-size: 48px;
-    line-height: 56px;
+  font-size: 48px;
+  line-height: 56px;
 }
 
 .text-bold {
-    font-weight: 700;
+  font-weight: 700;
 }
 
-.font-36{
-    font-size: 36px;
-    line-height: 56px;
+.font-36 {
+  font-size: 36px;
+  line-height: 56px;
 }
 
-.font-24{
-    font-size: 24px;
-    line-height: 56px;
+.font-24 {
+  font-size: 24px;
+  line-height: 56px;
 }
 
-.font-21{
-    font-size: 21px;
-    line-height: 32px;
+.font-21 {
+  font-size: 21px;
+  line-height: 32px;
 }
 
-.font-18{
-    font-size: 18px;
-    line-height: 30px;
+.font-18 {
+  font-size: 18px;
+  line-height: 30px;
 }
 
-.font-16{
-    font-size: 16px;
-    line-height: 28px;
+.font-16 {
+  font-size: 16px;
+  line-height: 28px;
 }
 
-.color-gray{
-    color: #7D7987;
+.color-gray {
+  color: #7d7987;
 }
 
 body .text-white {
-    color: white;
+  color: white;
 }
 
-.mainButton{
-    background: #458FF6;
-    border-radius: 55px;
-    color: white;
-    border: 0;
-    padding: 12px 24px 16px 24px;
-    text-align: center;
-    line-height: 24px;
+.mainButton {
+  background: #458ff6;
+  border-radius: 55px;
+  color: white;
+  border: 0;
+  padding: 12px 24px 16px 24px;
+  text-align: center;
+  line-height: 24px;
 }
 
-.mainButton2{
-    background: #ffffff;
-    border-radius: 55px;
-    color: #458FF6;
-    border: 0;
-    padding: 10px 36px 14px 36px;
-    text-align: center;
-    line-height: 24px;
-    border: 1.4px solid #458FF6;
-    box-sizing: border-box;
+.mainButton2 {
+  background: #ffffff;
+  border-radius: 55px;
+  color: #458ff6;
+  border: 0;
+  padding: 10px 36px 14px 36px;
+  text-align: center;
+  line-height: 24px;
+  border: 1.4px solid #458ff6;
+  box-sizing: border-box;
 }
 
-.textButton{
-    background: #ffffff;
-    color: #458FF6;
-    border: 0;
-    box-sizing: border-box;
+.textButton {
+  background: #ffffff;
+  color: #458ff6;
+  border: 0;
+  box-sizing: border-box;
 }
 
 .px-70 {
-    padding: 0 70px;
+  padding: 0 70px;
 }
 
 .px-90 {
-    padding: 0 90px;
+  padding: 0 90px;
+}
+
+@media screen and (max-width: 550px) {
+  .px-90 {
+    padding: 0 10px;
+  }
 }
