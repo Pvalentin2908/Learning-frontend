@@ -13,7 +13,12 @@ export default function Articles() {
   const [open, setOpen] = useState(false);
   console.log(open);
   return (
-    <div className={cs(s.relativeContainer, 'd-flex flex-column justify-content-between p-5 m-5')}>
+    <div
+      className={cs(
+        s.relativeContainer,
+        'd-flex flex-column justify-content-between py-5 px-2 px-lg-5 m-1 m-lg-5'
+      )}
+    >
       <div className="d-flex flex-column justify-content-between align-items-center text-center mb-3">
         <div className="text-black mb-3">
           <h3 className="text-black">Check out our latest article</h3>
@@ -21,8 +26,8 @@ export default function Articles() {
         <div className={cs(s.lineBlack, 'mb-3')} />
       </div>
       <div className={s.absoluteContainer}></div>
-      <div className="d-flex flex-row justify-content-around align-items-center mb-5">
-        <div className={cs(s.articleCard, 'me-4')}>
+      <div className="d-flex flex-column flex-lg-row justify-content-around align-items-center mb-5">
+        <div className={cs(s.articleCard, 'me-lg-4')}>
           <div className={s.imgArticleCard}>
             <img src={Img2}></img>
           </div>
@@ -83,7 +88,7 @@ export default function Articles() {
 
       <Collapse in={open}>
         <div id="example-collapse-text">
-          <div className="d-flex flex-row justify-content-around align-items-center mb-5">
+          <div className="d-flex flex-column flex-lg-row justify-content-around align-items-center mb-5">
             <div className={cs(s.articleCard, 'me-4')}>
               <div className={s.imgArticleCard}>
                 <img src={Img2}></img>
@@ -144,7 +149,7 @@ export default function Articles() {
           </div>
         </div>
       </Collapse>
-      <div className="text-center p-5">
+      <div className="d-flex flex-row justify-content-center w-100 text-center p-5">
         <button
           onClick={() => setOpen(!open)}
           aria-controls="example-collapse-text"

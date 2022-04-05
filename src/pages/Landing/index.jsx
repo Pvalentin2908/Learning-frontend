@@ -16,7 +16,7 @@ import Footer from '../../components/Page/footer';
 export default function LandingPage() {
   return (
     <>
-      <div className="px-90 container-floid w-100 h-100 overflow-hidden">
+      <div className="px-90 container w-100 h-100 overflow-hidden">
         <Header />
         <div className="d-flex flex-column flex-lg-row justify-content-between align-items-center w-100  h-100">
           <div className="d-flex order-1 order-lg-0 flex-column justify-content-between col-12 col-lg-6">

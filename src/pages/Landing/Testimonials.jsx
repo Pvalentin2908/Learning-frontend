@@ -9,7 +9,10 @@ export default function Testimonials() {
     <Carousel>
       <Carousel.Item>
         <div
-          className={cs(s.cardTestimonial, 'd-flex flex-column justify-content-between p-5 m-5')}
+          className={cs(
+            s.cardTestimonial,
+            'd-flex flex-column justify-content-between py-5 px-2 px-lg-5 m-1 m-lg-5'
+          )}
         >
           <div className="d-flex flex-column justify-content-between align-items-center text-center mb-3">
             <div className="text-white mb-3">
@@ -18,7 +21,7 @@ export default function Testimonials() {
             <div className={cs(s.lineWhite, 'mb-3')} />
           </div>
           <div className="d-flex flex-column flex-lg-row justify-content-around align-items-center">
-            <div className="d-flex flex-column flex-lg-row justify-content-between col-4">
+            <div className="d-flex flex-column flex-lg-row justify-content-between align-items-center col-12 col-lg-4">
               <div className={s.imgMan}>
                 <img src={ManImg}></img>
               </div>
@@ -27,7 +30,7 @@ export default function Testimonials() {
                 <h5 className="text-white">Edward Newgate</h5> <p>Founder Circle</p>
               </div>
             </div>
-            <div className="col-5 text-white">
+            <div className="col-12 col-lg-5 text-white text-center text-lg-start">
               “Our dedicated patient engagement app and web portal allow you to access information
               instantaneously (no tedeous form, long calls, or administrative hassle) and securely”
             </div>
@@ -36,7 +39,10 @@ export default function Testimonials() {
       </Carousel.Item>
       <Carousel.Item>
         <div
-          className={cs(s.cardTestimonial, 'd-flex flex-column justify-content-between p-5 m-5')}
+          className={cs(
+            s.cardTestimonial,
+            'd-flex flex-column justify-content-between py-5 px-2 px-lg-5 m-1 m-lg-5'
+          )}
         >
           <div className="d-flex flex-column justify-content-between align-items-center text-center mb-3">
             <div className="text-white mb-3">
@@ -45,7 +51,7 @@ export default function Testimonials() {
             <div className={cs(s.lineWhite, 'mb-3')} />
           </div>
           <div className="d-flex flex-column flex-lg-row justify-content-around align-items-center">
-            <div className="d-flex flex-column flex-lg-row justify-content-between col-4">
+            <div className="d-flex flex-column flex-lg-row justify-content-between align-items-center col-12 col-lg-4">
               <div className={s.imgMan}>
                 <img src={ManImg}></img>
               </div>
@@ -54,7 +60,7 @@ export default function Testimonials() {
                 <h5 className="text-white">Edward Newgate</h5> <p>Founder Circle</p>
               </div>
             </div>
-            <div className="col-5 text-white">
+            <div className="col-12 col-lg-5 text-white text-center text-lg-start">
               “Our dedicated patient engagement app and web portal allow you to access information
               instantaneously (no tedeous form, long calls, or administrative hassle) and securely”
             </div>
@@ -63,7 +69,10 @@ export default function Testimonials() {
       </Carousel.Item>
       <Carousel.Item>
         <div
-          className={cs(s.cardTestimonial, 'd-flex flex-column justify-content-between p-5 m-5')}
+          className={cs(
+            s.cardTestimonial,
+            'd-flex flex-column justify-content-between py-5 px-2 px-lg-5 m-1 m-lg-5'
+          )}
         >
           <div className="d-flex flex-column justify-content-between align-items-center text-center mb-3">
             <div className="text-white mb-3">
@@ -72,7 +81,7 @@ export default function Testimonials() {
             <div className={cs(s.lineWhite, 'mb-3')} />
           </div>
           <div className="d-flex flex-column flex-lg-row justify-content-around align-items-center">
-            <div className="d-flex flex-column flex-lg-row justify-content-between col-4">
+            <div className="d-flex flex-column flex-lg-row justify-content-between align-items-center col-12 col-lg-4">
               <div className={s.imgMan}>
                 <img src={ManImg}></img>
               </div>
@@ -81,7 +90,7 @@ export default function Testimonials() {
                 <h5 className="text-white">Edward Newgate</h5> <p>Founder Circle</p>
               </div>
             </div>
-            <div className="col-5 text-white">
+            <div className="col-12 col-lg-5 text-white text-center text-lg-start">
               “Our dedicated patient engagement app and web portal allow you to access information
               instantaneously (no tedeous form, long calls, or administrative hassle) and securely”
             </div>
@@ -90,7 +99,10 @@ export default function Testimonials() {
       </Carousel.Item>
       <Carousel.Item>
         <div
-          className={cs(s.cardTestimonial, 'd-flex flex-column justify-content-between p-5 m-5')}
+          className={cs(
+            s.cardTestimonial,
+            'd-flex flex-column justify-content-between py-5 px-2 px-lg-5 m-1 m-lg-5'
+          )}
         >
           <div className="d-flex flex-column justify-content-between align-items-center text-center mb-3">
             <div className="text-white mb-3">
@@ -99,7 +111,7 @@ export default function Testimonials() {
             <div className={cs(s.lineWhite, 'mb-3')} />
           </div>
           <div className="d-flex flex-column flex-lg-row justify-content-around align-items-center">
-            <div className="d-flex flex-column flex-lg-row justify-content-between col-4">
+            <div className="d-flex flex-column flex-lg-row justify-content-between align-items-center col-12 col-lg-4">
               <div className={s.imgMan}>
                 <img src={ManImg}></img>
               </div>
@@ -108,7 +120,7 @@ export default function Testimonials() {
                 <h5 className="text-white">Edward Newgate</h5> <p>Founder Circle</p>
               </div>
             </div>
-            <div className="col-5 text-white">
+            <div className="col-12 col-lg-5 text-white text-center text-lg-start">
               “Our dedicated patient engagement app and web portal allow you to access information
               instantaneously (no tedeous form, long calls, or administrative hassle) and securely”
             </div>
