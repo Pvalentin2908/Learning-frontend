@@ -46,7 +46,7 @@ export default function Articles() {
             </div>
           </div>
         </div>
-        <div className={cs(s.articleCard, 'me-4')}>
+        <div className={cs(s.articleCard, 'me-lg-4')}>
           <div className={s.imgArticleCard}>
             <img src={Img1}></img>
           </div>
@@ -65,7 +65,7 @@ export default function Articles() {
             </div>
           </div>
         </div>
-        <div className={cs(s.articleCard, 'me-4')}>
+        <div className={cs(s.articleCard, 'me-lg-4')}>
           <div className={s.imgArticleCard}>
             <img src={Img3}></img>
           </div>
@@ -89,7 +89,7 @@ export default function Articles() {
       <Collapse in={open}>
         <div id="example-collapse-text">
           <div className="d-flex flex-column flex-lg-row justify-content-around align-items-center mb-5">
-            <div className={cs(s.articleCard, 'me-4')}>
+            <div className={cs(s.articleCard, 'me-lg-4')}>
               <div className={s.imgArticleCard}>
                 <img src={Img2}></img>
               </div>
@@ -108,7 +108,7 @@ export default function Articles() {
                 </div>
               </div>
             </div>
-            <div className={cs(s.articleCard, 'me-4')}>
+            <div className={cs(s.articleCard, 'me-lg-4')}>
               <div className={s.imgArticleCard}>
                 <img src={Img1}></img>
               </div>
@@ -127,7 +127,7 @@ export default function Articles() {
                 </div>
               </div>
             </div>
-            <div className={cs(s.articleCard, 'me-4')}>
+            <div className={cs(s.articleCard, 'me-lg-4')}>
               <div className={s.imgArticleCard}>
                 <img src={Img3}></img>
               </div>
