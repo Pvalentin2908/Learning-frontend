@@ -7,7 +7,7 @@ import HeroImg3 from './assets/trafalgar-illustration 3.png';
 export default function MobileApp() {
   return (
     <div className="d-flex flex-column flex-lg-row justify-content-between align-items-center w-100  h-100">
-      <div className="d-flex flex-column order-1 order-lg-0 justify-content-between ms-5">
+      <div className="d-flex flex-column order-1 order-lg-0 justify-content-between ms-0 ms-lg-5">
         <div className="mb-3">
           <h2 className="h-36 text-bold">Download our mobile apps</h2>
         </div>
@@ -15,7 +15,7 @@ export default function MobileApp() {
           Our dedicated patient engagement app and web portal allow you to access information
           instantaneously (no tedeous form, long calls, or administrative hassle) and securely
         </div>
-        <div>
+        <div className='mx-auto mx-lg-0 mb-3'>
           <button className="mainButton2">
             Download <img className="ms-2" src={Vector} />
           </button>

@@ -9,7 +9,7 @@ export default function Healthcare() {
       <div className="col-12 col-lg-6 h-100 mb-3">
         <div className={cs(s.imgBg)} style={{ backgroundImage: { HeroImg2 } }}></div>
       </div>
-      <div className="d-flex flex-column justify-content-between ms-5 p-4">
+      <div className="d-flex flex-column justify-content-between ms-0 ms-lg-5 p-1 p-lg-4">
         <div className="mb-3">
           <h2 className="h-36 text-bold">Leading healthcare providers</h2>
         </div>
@@ -17,7 +17,7 @@ export default function Healthcare() {
           Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online
           for everyone. To us, it’s not just work. We take pride in the solutions we deliver
         </div>
-        <div>
+        <div className='mx-auto mx-lg-0'>
           <button className="mainButton2 mb-5">Learn more</button>
         </div>
       </div>
