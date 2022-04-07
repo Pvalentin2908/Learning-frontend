@@ -1,5 +1,88 @@
 .imgBg {
-    background-image: url("./assets/trafalgar-header\ illustration\ 1.png");
-    height: 600px;
-    width: 700px;
+    overflow: visible;
+    background-image: url("./assets/trafalgar-header illustration 1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 600px;}
+
+.lineBlack {
+    background: #000000;
+    border-radius: 5px;
+    width: 56px;
+    height: 2px;
+}
+
+.cardServices {
+    background: #FFFFFF;
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+    border-radius: 20px;
+    border: 2px solid rgba(229, 233, 246, 0.4);
+    width: 30%;
+}
+
+.lineWhite {
+    background: #ffffff;
+    border-radius: 5px;
+    width: 56px;
+    height: 2px;
+}
+
+.imgMan {
+    width: 133px;
+    height: 133px;
+    border-radius: 50%;
+    border: 3px solid #ffffff;
+    overflow: hidden;
+}
+
+.cardTestimonial {
+    background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+    border-radius: 24px;
+}
+
+.imgArticleCard {
+    width: 100%;
+    height: 246px;
+}
+
+.articleCard {
+    background: #FFFFFF;
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+    border-radius: 20px;
+    overflow: hidden;
+    max-width: 350px;
+}
+
+.relativeContainer {
+    position: relative;
+    z-index: 5;
+}
+
+.absoluteContainer {
+    position: absolute;
+    z-index: 2;
+    background-image: url("./assets/element2.png");
+}
+
+@media screen and (max-width: 550px) {
+    .cardServices {
+        width: 100%;
+    }
+    .imgBg {
+        overflow: visible;
+        width: 100%;
+        height: 250px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .cardTestimonial {
+        background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+        border-radius: 24px;
+        width: 100%;
+    }
+    .relativeContainer {
+        position: relative;
+        z-index: 5;
+    }
 }

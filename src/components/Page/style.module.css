@@ -1,0 +1,11 @@
+.cardFooter {
+  background: linear-gradient(183.41deg, #67c3f3 -8.57%, #5a98f2 82.96%);
+  height: 100%;
+  width: 100%;
+}
+
+@media screen and (max-width: 550px) {
+  .cardFooter {
+    height: 100%;
+  }
+}
